@@ -6,16 +6,25 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: whitesmoke;
+  transition: all 0.3s ease-in-out;
 }
 #main {
-  background-color: whitesmoke;
+  background-color: white;
   font-weight: 500;
+  /* position: fixed; */
+  width: 100%;
+}
+.sticky {
+  position: fixed;
 }
 .header {
   display: flex;
 }
 .logo {
   flex: 1;
+}
+.cname a {
+  color: inherit;
 }
 .nav {
   display: flex;
@@ -24,6 +33,7 @@ body {
 .nav ul {
   display: flex;
   text-align: center;
+  margin-top: 5px;
 }
 .nav ul li {
   list-style: none;
